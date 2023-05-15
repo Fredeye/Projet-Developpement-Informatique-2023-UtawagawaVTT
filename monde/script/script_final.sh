@@ -27,11 +27,12 @@ wget -i url_5m -P ../telechargement_mnt/telechargement_5m
 wget -r -np -nH --cut-dirs=3 -R "index.html*" -A "*s10.zip" -P ../telechargement_mnt/telechargement_italie --no-check-certificate https://tinitaly.pi.ingv.it/Download_Area1_1.html
 
 # Téléchargement des MNT suisses 50cm et 2m (fichiers .tif)
-wget -i url_suisse_50cm.csv ../telechargement_mnt/telechargement_suisse_50cm/asc
-wget -i url_suisse_2m.csv ../telechargement_mnt/telechargement_suisse_2m/asc
+wget -i url_suisse_50cm.csv -P ../telechargement_mnt/telechargement_suisse_50cm/asc
+wget -i url_suisse_2m.csv -P ../telechargement_mnt/telechargement_suisse_2m/asc
 
 # Téléchargement des MNT europe à 30m NASADEM
-# https://opentopography.s3.sdsc.edu/minio/raster/NASADEM/NASADEM_be/ # Lien (wget n'a pas l'autorisation pour automatiser le téléchargement)
+wget --content-disposition https://www.bodc.ac.uk/data/open_download/gebco/gebco_2023/geotiff/
+
 
 # Téléchargement MNT monde 2000m et 250m(fichier .tif)
 wget -P ../telechargement_mnt/telechargement_monde_2000m/asc https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_bed_elev_gtif/ETOPO_2022_v1_60s_N90W180_bed.tif
