@@ -17,9 +17,13 @@ L'objectif a été divisé en 2 temps:
 * L'appliquer sur le monde entier
 
 ### Zone d'étude
-Le script est fonctionnel et donne: 
+Le script est fonctionnel et devrait donner ces résultats:
 ![Niveau mer 0](./img/MNT_zone_etude_niveau_mer_0.PNG)
 ![Mbtiles](./img/mbtiles.PNG)
+
+### Monde
+Le script final n'est pas fonctionnel mais il pourra être repris et compléter afin de terminer le projet. NB: il n'a pas été mis à jour par rapport au script de la zone d'étude.
+
 
 ## Comment lancer le script pour la zone d'étude?
 
