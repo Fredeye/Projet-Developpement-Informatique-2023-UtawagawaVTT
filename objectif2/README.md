@@ -1,4 +1,4 @@
-### Objectif 2: Construire une couche de tuiles HD terrain-rgb mondiale
+# Objectif 2: Construire une couche de tuiles HD terrain-rgb mondiale
 ## Téléchargement préliminaire
 * [Chocolatey](https://chocolatey.org/install#individual)
 * [Anaconda3](https://www.anaconda.com/download)
@@ -12,7 +12,7 @@ Cela permettra d'avoir l'outil wget permettant de télécharger les fichiers né
 
 ## Comment lancer le script ?
 
-# Environnement 
+### Environnement 
 Lancer le terminal Anaconda Prompt précédement télécharger.
 
 Dans le terminal: 
@@ -33,3 +33,10 @@ Excécuter le script:
 ```
 script_zone_etude.sh
 ```
+
+### Fichiers en sortie
+Dans le dossier ../z_0_16 devrait se trouver:
+* Tous les MNT reprojetés (fichiers .tif), soit 305 MNT français et 1 MNT italien
+* Une image virtuelle vide (fichier .vrt)
+* Deux fichiers geotiff (.tif) représentant l'assemblage des MNT reprojetés dans l'image virtuelle ainsi et le fichier avec les données en mer remises à 0
+* Un fichier .mbtiles qui est la tuile en terrain-RGB pour les zoom 0 à 16
