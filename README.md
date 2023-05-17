@@ -1,5 +1,6 @@
 # Géodév 2023 Projet UtagawaVTT : Cartographie GPS pour le VTT
-Contexte général du projet à réaliser:
+
+## Contexte général du projet à réaliser:
 
 UtagawaVTT est un site communautaire de partage de randonnées pour le VTT.
 
@@ -14,4 +15,28 @@ La cartographie est basée sur les données OpenStreetMap via le standard Openma
 Les styles sont compatibles avec le format Mapbox et éditables en WYSIWYG avec l’outil Maputnik.
 
 La carte est disponible sur htpps://maps.utagawavtt.com
+
+## Objectifs fixés
+
+1/ Valider et améliorer le style de carte dans une version 2 en utilisant les bonnes pratiques de représentation cartographique vis-à-vis de l’usage souhaité : mise en valeur des éléments utiles à la pratique du VTT. 
+
+2/ Construire une couche de tuiles terrain-rgb mondiale intégrable en mode raster-dem dans le style mapbox de la carte.
+Cette couche doit se baser sur les données MNT 1M des pays lorsque c’est disponible (comme la France) et le reste avec les données du MNT NASADEM. 30m.
+
+Cette couche sera utilisée pour générer les ombrages détaillés de la carte UtagawaVTT et générer une version 3D.
+
+Les zoom 1 à 15 sont attendus.
+
+3/ Traduire le style de la carte en une version adaptée aux GPS Garmin.
+
+## Documentation
+
+* [les scripts de Makina Corpus](https://makina-corpus.com/sig-webmapping/representation-des-modeles-numeriques-de-terrain-sur-le-web-ombrage-et-3d)
+* [Tutoriel pour gdal_hillshade](https://github.com/clhenrick/gdal_hillshade_tutorial)
+
+* [Inspiration pour la traduction pour GPS garmin](https://gitlab.com/ravenfeld/garmincustommap)(https://ravenfeld.gitlab.io/open-garmin-map/)
+
+
+
+
 
