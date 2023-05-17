@@ -39,6 +39,12 @@ Pour l'objectif 3/, inspiration de Ravenfeld.
 * [Ravenfeld: Garmin custom map](https://gitlab.com/ravenfeld/garmincustommap)
 * [Ravenfeld: Open garmin map](https://ravenfeld.gitlab.io/open-garmin-map/)
 
+## Installation
+
+* Le projet 1 n'a pas besoin d'installation. Le produit de cette étape est un fichier style JSON.
+* Les projets 2 et 3 sont indépendants, il y a donc une installation différente, donc, un readme différent pour chaque objectif.
+
+
 
 
 
