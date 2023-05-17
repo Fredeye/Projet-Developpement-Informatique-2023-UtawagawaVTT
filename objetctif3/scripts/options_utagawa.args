@@ -1,7 +1,0 @@
-style-file=..\style\utagawa
-dem=dem\
-dem-dists=3312,13248,26512,53024,106000,212000,424000,848000 
-dem-interpolation=auto 
-show-profiles=1
-precomp-sea=..\sea.zip
-x-check-precomp-sea=0
