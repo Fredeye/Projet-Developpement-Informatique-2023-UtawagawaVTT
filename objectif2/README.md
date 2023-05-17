@@ -40,3 +40,8 @@ Dans le dossier ../z_0_16 devrait se trouver:
 * Une image virtuelle vide (fichier .vrt)
 * Deux fichiers geotiff (.tif) représentant l'assemblage des MNT reprojetés dans l'image virtuelle ainsi et le fichier avec les données en mer remises à 0
 * Un fichier .mbtiles qui est la tuile en terrain-RGB pour les zoom 0 à 16
+
+### Erreurs possibles
+La plus grande source d'erreur est l'installation de l'environnement: au cours du projet, nous nous sommes confrontés à beaucoup d'erreurs d'incompatibilités des librairies utilisées notamment Rasterio avec Proj et Gdal ou python avec Gdal.
+
+Si le fichier .mbtiles est corrompu ou inexistant, vérifier la compabilité de Rasterio avec Proj. Il faut une version antérieur à 1.1.2 de Rasterio pour une version 6.X de proj. (https://github.com/rasterio/rasterio/issues/2103)
