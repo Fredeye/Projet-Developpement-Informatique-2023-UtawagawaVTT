@@ -31,12 +31,11 @@ wget -i url_suisse_50cm.csv -P ../telechargement_mnt/telechargement_suisse_50cm/
 wget -i url_suisse_2m.csv -P ../telechargement_mnt/telechargement_suisse_2m/asc
 
 # Téléchargement des MNT europe à 30m NASADEM
-wget --content-disposition https://www.bodc.ac.uk/data/open_download/gebco/gebco_2023/geotiff/
 
 
-# Téléchargement MNT monde 2000m et 250m(fichier .tif)
+# Téléchargement MNT monde 2000m et 250m(fichier .tif et .zip)
 wget -P ../telechargement_mnt/telechargement_monde_2000m/asc https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_bed_elev_gtif/ETOPO_2022_v1_60s_N90W180_bed.tif
-# https://www.bodc.ac.uk/data/open_download/gebco/gebco_2023/geotiff/ # Lien pour le 250m (wget ne télécharge pas le bon fichier)
+wget --content-disposition https://www.bodc.ac.uk/data/open_download/gebco/gebco_2023/geotiff/
 
 # Extraction des données 7z
 mkdir -p ../telechargement_mnt/telechargement_1m/asc && 7z x ../telechargement_mnt/telechargement_1m/*.7z -o../telechargement_mnt/telechargement_1m/asc -aos
@@ -145,5 +144,6 @@ gdal_calc.py --co="COMPRESS=LZW" --type=Float32 -A ../z_0_4/MNT_z_0_4.tif --outf
 
 # Génération des tuiles MBtiles
 rio rgbify -b -10000 -i 0.1 --max-z 4 --min-z 0 ../z_0_4/MNT_z_0_4_mer_0.tif ../z_0_4/MNT_z_0_4.mbtiles
+
 
 
