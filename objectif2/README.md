@@ -2,6 +2,7 @@
 ## Téléchargement préliminaire
 * [Chocolatey](https://chocolatey.org/install#individual)
 * [Anaconda3](https://www.anaconda.com/download)
+* [Git bash](https://gitforwindows.org/)
 * Les outils présents dans le dossier "telechargement_preliminaire"
 * Sur un terminal, exécuter en tant qu'administrateur:
 
