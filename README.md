@@ -34,7 +34,8 @@ Les zoom 1 à 15 sont attendus.
 * [les scripts de Makina Corpus](https://makina-corpus.com/sig-webmapping/representation-des-modeles-numeriques-de-terrain-sur-le-web-ombrage-et-3d)
 * [Tutoriel pour gdal_hillshade](https://github.com/clhenrick/gdal_hillshade_tutorial)
 
-* [Inspiration pour la traduction pour GPS garmin](https://gitlab.com/ravenfeld/garmincustommap)(https://ravenfeld.gitlab.io/open-garmin-map/)
+* [Ravenfeld: Garmin custom map](https://gitlab.com/ravenfeld/garmincustommap)
+* [Ravenfeld: Open garmin map](https://ravenfeld.gitlab.io/open-garmin-map/)
 
 
 
