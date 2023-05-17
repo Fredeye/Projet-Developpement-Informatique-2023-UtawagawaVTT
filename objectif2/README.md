@@ -1,2 +1,2 @@
-# Projet-Developpement-Informatique-2023-UtawagawaVTT
-Géodév 2023 Projet UtagawaVTT
+# Objectif 2
+Construire une couche de tuiles HD terrain-rgb mondiale
