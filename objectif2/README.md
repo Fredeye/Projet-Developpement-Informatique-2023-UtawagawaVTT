@@ -18,6 +18,7 @@ L'objectif a été divisé en 2 temps:
 
 ### Zone d'étude
 Le script est fonctionnel et donne un résultat: 
+[![MNT niveau de mer à 0](./img/MNT_zone_etude_niveau_mer_0.PNG)]
 
 ## Comment lancer le script pour la zone d'étude?
 
