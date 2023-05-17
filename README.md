@@ -35,7 +35,7 @@ Pour l'objectif 2/, les scripts de makina corpus ont été adaptés afin de gén
 * [les scripts de Makina Corpus](https://makina-corpus.com/sig-webmapping/representation-des-modeles-numeriques-de-terrain-sur-le-web-ombrage-et-3d)
 * [Tutoriel pour gdal_hillshade](https://github.com/clhenrick/gdal_hillshade_tutorial)
 
-
+Pour l'objectif 3/, inspiration de Ravenfeld.
 * [Ravenfeld: Garmin custom map](https://gitlab.com/ravenfeld/garmincustommap)
 * [Ravenfeld: Open garmin map](https://ravenfeld.gitlab.io/open-garmin-map/)
 
