@@ -11,7 +11,15 @@ choco install wget
 ```
 Cela permettra d'avoir l'outil wget permettant de télécharger les fichiers nécessaires à partir d'URL.
 
-## Comment lancer le script ?
+## Ordre chronologique
+L'objectif a été divisé en 2 temps: 
+* Développer un algorithme fonctionnel sur une zone d'étude
+* L'appliquer sur le monde entier
+
+### Zone d'étude
+Le script est fonctionnel et donne un résultat: 
+
+## Comment lancer le script pour la zone d'étude?
 
 ### Environnement 
 Lancer le terminal Anaconda Prompt précédement télécharger.
