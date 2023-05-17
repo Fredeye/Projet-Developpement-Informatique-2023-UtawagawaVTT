@@ -18,8 +18,8 @@ L'objectif a été divisé en 2 temps:
 
 ### Zone d'étude
 Le script est fonctionnel et donne: 
-(./img/MNT_zone_etude_niveau_mer_0.PNG)
-(./img/mbtiles.PNG)
+[!Niveau mer 0](./img/MNT_zone_etude_niveau_mer_0.PNG)
+[!Mbtiles](./img/mbtiles.PNG)
 
 ## Comment lancer le script pour la zone d'étude?
 
