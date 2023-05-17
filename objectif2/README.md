@@ -17,12 +17,13 @@ L'objectif a été divisé en 2 temps:
 * L'appliquer sur le monde entier
 
 ### Zone d'étude
-Le script est fonctionnel et devrait donner ces résultats:
+Le script est fonctionnel et devrait donner ces résultats: (obtenu avec zoom compris entre 0 et 11 pour baisser le temps de calcul)
 ![Niveau mer 0](./img/MNT_zone_etude_niveau_mer_0.PNG)
 ![Mbtiles](./img/mbtiles.PNG)
 
 ### Monde
-Le script final n'est pas fonctionnel mais il pourra être repris et compléter afin de terminer le projet. NB: il n'a pas été mis à jour par rapport au script de la zone d'étude.
+* Le script final n'est pas fonctionnel mais il pourra être repris et compléter afin de terminer le projet. NB: il n'a pas été mis à jour par rapport au script de la zone d'étude.
+* Le script test_monde_250m.sh devrait fonctionner et donner un résultat similaire au précédent mais sur le monde entier. NB: les zooms 11 à 16 sont extrèmement longs à générer, pour avoir un visuel rapide, limiter aux zoom 0 à 11.
 
 
 ## Comment lancer le script pour la zone d'étude?
